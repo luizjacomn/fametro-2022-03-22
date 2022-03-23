@@ -1,0 +1,43 @@
+.quadrado {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.quadrado:hover {
+    background-color: blue;
+    border-radius: 8px;
+}
+
+.quadrado-arredondado {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 4px;
+}
+
+#lista-professores {
+    font-size: 20px;
+    color: violet;
+}
+
+.meu-flex {
+    height: 500px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.filho:first-child {
+    flex-grow: 2;
+}
+
+.filho:last-child {
+    flex-grow: 3;
+}
